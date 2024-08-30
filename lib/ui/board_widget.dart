@@ -31,7 +31,7 @@ class BoardWidget extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
           border: Border(
-        top: BorderSide(color: Colors.brown, width: 16),
+        top: BorderSide(color: Color(0xFF795548), width: 16),
         bottom: BorderSide(color: Colors.brown, width: 16),
       )),
       child: AspectRatio(

@@ -9,7 +9,7 @@ class LostFiguresWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 30,
+      height: 10,
       child: ListView.builder(
           scrollDirection: Axis.horizontal,
           itemCount: figures.length,
