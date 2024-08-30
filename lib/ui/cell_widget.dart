@@ -63,10 +63,6 @@ class CellWidget extends StatelessWidget {
             );
           })),
           if (cell.occupied) FigureWidget(figure: cell.getFigure()!),
-          // Text(
-          //   cell.positionHash,
-          //   style: const TextStyle(color: Colors.red),
-          // )
         ],
       ),
     );
